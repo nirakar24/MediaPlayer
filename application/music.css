@@ -1,0 +1,25 @@
+#pane{
+	-fx-background-image:url('../Images/m_bg.jpeg');
+	-fx-background-size:cover;
+}
+#TotalTime{
+	-fx-text-fill:"white";
+}
+#CurrentTime{
+	-fx-text-fill:"white";
+}
+#buttonP{
+	-fx-background-color:linear-gradient(to bottom,#074973,#23B7D9);
+	
+}
+#buttonP:hover{
+	-fx-background-color:linear-gradient(to bottom,#23B7D9,#074973);
+	
+}
+#bak{
+	-fx-background-color:linear-gradient(to bottom,#074973,#23B7D9);
+}
+#bak:hover{
+	-fx-background-color:linear-gradient(to bottom,#23B7D9,#074973);
+	
+}

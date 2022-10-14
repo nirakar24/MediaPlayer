@@ -1,0 +1,39 @@
+#main{
+	-fx-background-image:url('../Images/bg.jpg');
+	-fx-background-size:cover;
+}
+
+#mbutton{
+	-fx-background-color:#401B2F;
+	-fx-text-fill:#F2CA80;
+	}
+	
+#mbutton:hover{
+	-fx-background-color:#734061;
+}
+
+#pane{
+	-fx-background-image:url('../Images/mv_bg.jpg');
+	-fx-background-size:cover;
+}
+#TotalTime{
+	-fx-text-fill:"white";
+}
+#CurrentTime{
+	-fx-text-fill:"white";
+}
+#buttonP{
+	-fx-background-color:linear-gradient(to bottom,#261E59,#553B8C);
+	
+}
+#buttonP:hover{
+	-fx-background-color:linear-gradient(to bottom,#261E59,#553B8C);
+	
+}
+#bak{
+	-fx-background-color:linear-gradient(to bottom,#261E59,#553B8C);
+}
+#bak:hover{
+	-fx-background-color:linear-gradient(to bottom,#261E59,#553B8C);
+	
+}
