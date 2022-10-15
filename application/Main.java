@@ -31,11 +31,12 @@ public class Main extends Application {
 	@Override
 	public void start(Stage stage) throws Exception {
 		Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
-		Scene scene = new Scene(root);
+		Scene scene = new Scene(root,950,550);
 		scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());	
 		
 		stage.setTitle("JavaFX");
 		stage.setScene(scene);
+		stage.setResizable(false);
 //		stage.setMaximized(arg0);
 		stage.show();
 		

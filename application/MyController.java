@@ -22,15 +22,15 @@ public class MyController {
 	private Parent root;
 	
 	@FXML
-	private AnchorPane main;
+	private AnchorPane main;	
 		
 	public void next(ActionEvent e) throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("new.fxml"));
 		stage = (Stage)((Node)e.getSource()).getScene().getWindow();
-		scene = new Scene(root);
+		scene = new Scene(root,950,650);
 		scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
 		stage.setScene(scene);
-//		stage.setMaximized(true);
+		stage.setResizable(true);
 		stage.show();
 		
 	}
@@ -42,9 +42,7 @@ public class MyController {
 		scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
 		stage.setScene(scene);
 		stage.setResizable(false);
-//		stage.setMaximized(true);
 		stage.show();
-		
 	}
 	
 	public void close(ActionEvent e) {
@@ -54,21 +52,9 @@ public class MyController {
 		sure.setHeaderText("Are you sure?");
 		sure.setContentText("Progress will be lost");
 		
-		
 		if(sure.showAndWait().get()==ButtonType.OK) {
 		 Stage stage=(Stage)main.getScene().getWindow();
 		 stage.close();
-		 }
-		
+		 }		
 	}
-//	public void web(ActionEvent e) throws IOException {
-//		Parent root = FXMLLoader.load(getClass().getResource("video.fxml"));
-//		stage = (Stage)((Node)e.getSource()).getScene().getWindow();
-//		scene = new Scene(root);
-//		stage.setFullScreen(true);
-//		stage.setScene(scene);
-//		stage.show();
-//		
-//	}
-	
 }

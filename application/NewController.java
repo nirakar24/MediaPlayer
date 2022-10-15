@@ -97,10 +97,10 @@ public class NewController implements Initializable{
 		player.stop();
 		Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
 		stage = (Stage)((Node)e.getSource()).getScene().getWindow();
-		scene = new Scene(root);
+		scene = new Scene(root,950,550);
 		scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
 		stage.setScene(scene);
-//		stage.setMaximized(true);
+		stage.setResizable(false);
 		stage.show();
 		
 	}

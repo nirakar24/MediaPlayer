@@ -8,18 +8,23 @@
 #CurrentTime{
 	-fx-text-fill:"white";
 }
-#buttonP{
+#buttonP:hover{
 	-fx-background-color:linear-gradient(to bottom,#074973,#23B7D9);
 	
 }
-#buttonP:hover{
+#buttonP{
 	-fx-background-color:linear-gradient(to bottom,#23B7D9,#074973);
 	
-}
-#bak{
-	-fx-background-color:linear-gradient(to bottom,#074973,#23B7D9);
 }
 #bak:hover{
+	-fx-background-color:linear-gradient(to bottom,#074973,#23B7D9);
+}
+#bak{
 	-fx-background-color:linear-gradient(to bottom,#23B7D9,#074973);
-	
+}
+.slider .track{
+	-fx-background-color:linear-gradient(to bottom,#23B7D9,#074973);
+}
+.slider .thumb{
+	-fx-background-color:#afeeee;
 }

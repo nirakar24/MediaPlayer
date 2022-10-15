@@ -4,36 +4,43 @@
 }
 
 #mbutton{
-	-fx-background-color:#401B2F;
-	-fx-text-fill:#F2CA80;
+	-fx-background-color:#590212;
+	-fx-text-fill:#BFB2AA;
 	}
 	
 #mbutton:hover{
-	-fx-background-color:#734061;
+	-fx-background-color:#260108;
 }
-
 #pane{
-	-fx-background-image:url('../Images/mv_bg.jpg');
+	-fx-background-image:url('../Images/bg.jpg');
 	-fx-background-size:cover;
 }
 #TotalTime{
-	-fx-text-fill:"white";
+	-fx-text-fill:#BFB2AA;
 }
 #CurrentTime{
-	-fx-text-fill:"white";
-}
-#buttonP{
-	-fx-background-color:linear-gradient(to bottom,#261E59,#553B8C);
-	
+	-fx-text-fill:#BFB2AA;
 }
 #buttonP:hover{
-	-fx-background-color:linear-gradient(to bottom,#261E59,#553B8C);
-	
+	-fx-background-color:linear-gradient(to bottom,#260108,#590212);
+	-fx-text-fill:#BFB2AA;
+}
+#buttonP{
+	-fx-background-color:linear-gradient(to bottom,#590212,#260108);
+	-fx-text-fill:#BFB2AA;	
 }
 #bak{
-	-fx-background-color:linear-gradient(to bottom,#261E59,#553B8C);
+	-fx-background-color:linear-gradient(to bottom,#590212,#260108);
+	-fx-text-fill:#BFB2AA;
 }
 #bak:hover{
-	-fx-background-color:linear-gradient(to bottom,#261E59,#553B8C);
+	-fx-background-color:linear-gradient(to bottom,#260108,#590212);
+	-fx-text-fill:#BFB2AA;
 	
+}
+.slider .track{
+	-fx-background-color:linear-gradient(to bottom,#260108,#590212);
+}
+.slider .thumb{
+	-fx-background-color:#ffdead
 }

@@ -40,7 +40,7 @@
                         <Font name="Comic Sans MS Bold" size="21.0" />
                      </font>
                      <VBox.margin>
-                        <Insets bottom="20.0" left="-15.0" top="100.0" />
+                        <Insets bottom="50.0" left="-15.0" top="100.0" />
                      </VBox.margin>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -74,16 +74,6 @@
                </children>
             </VBox>
          </left>
-         <right>
-            <Button fx:id="mbutton" mnemonicParsing="false" prefHeight="39.0" prefWidth="143.0" style="-fx-background-radius: 20;" text="Switch" BorderPane.alignment="CENTER">
-               <BorderPane.margin>
-                  <Insets bottom="50.0" left="300.0" right="-15.0" top="150.0" />
-               </BorderPane.margin>
-               <font>
-                  <Font name="Comic Sans MS Bold" size="21.0" />
-               </font>
-            </Button>
-         </right>
       </BorderPane>
    </children>
 </AnchorPane>

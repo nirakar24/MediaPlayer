@@ -19,7 +19,7 @@
    <children>
       <BorderPane fx:id="root" prefHeight="398.0" prefWidth="680.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
-            <MenuBar fx:id="mainMenu" BorderPane.alignment="CENTER">
+            <MenuBar fx:id="mainMenu" stylesheets="@style.css" BorderPane.alignment="CENTER">
               <menus>
                 <Menu fx:id="file" mnemonicParsing="false" text="File">
                   <items>
@@ -71,7 +71,7 @@
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font></Button>
-                        <Label text="Vol." textFill="#f8f8f8">
+                        <Label text="Vol." textFill="#bfb2aa">
                            <HBox.margin>
                               <Insets left="5.0" />
                            </HBox.margin>
