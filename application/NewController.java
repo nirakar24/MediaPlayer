@@ -135,6 +135,18 @@ public class NewController implements Initializable{
 					
 				});
 				
+				player.currentTimeProperty().addListener(new ChangeListener<Duration>() {
+
+					@Override
+					public void changed(ObservableValue<? extends Duration> arg0, Duration oldTime, Duration newTime) {
+						if(!timeSlide.isValueChanging()) {
+							timeSlide.setValue(newTime.toSeconds());
+						}
+						
+					}
+					
+				});
+				
 			}
 
 		}			
@@ -237,6 +249,7 @@ public class NewController implements Initializable{
 			fullScreen.setGraphic(full);
 						
 			view.setMediaPlayer(player);
+			volume.setValue(0.2);
 			player.play();
 		}
 		player.volumeProperty().bindBidirectional(volume.valueProperty());
