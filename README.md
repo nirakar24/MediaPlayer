@@ -1,5 +1,16 @@
-# MediaPlayer
-This application is capable of playing any video or audio files in mp4 and mp3  format  respectively. Once you open the application you will be asked for which type of file should be played, video or audio, after that a dialogue box will open where you can select the file and then you can enjoy your music or movie :)
+
+# Media player
+
+This application is capable of playing any video or audio files in mp4 and mp3 format respectively. Once you open the application you will be asked for which type of file should be played, video or audio, after that a dialogue box will open where you can select the file and then you can enjoy your music or movie :)
+
+
+## 🛠 Skills
+Java, JavaFX, Scene Builder, CSS...
+
+
+## Documentation
+
+[JavaFX](https://openjfx.io/openjfx-docs/)
 
 Main window:
 
@@ -14,3 +25,8 @@ Video window:
 Music window:
 
 ![Music_window](https://user-images.githubusercontent.com/101456316/198118867-dfee5301-e038-490f-a2f8-15157f8d0db1.JPG)
+
+## Feedback
+
+If you have any feedback, please reach out at jenashubham60@gmail.com
+
